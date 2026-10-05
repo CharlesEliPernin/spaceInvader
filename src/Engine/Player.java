@@ -9,6 +9,9 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 
+/**
+ * Classe reprenant le joueur du jeu.
+ */
 public class Player extends GameObject {
 
     private ArrayList<Missile> missiles;
@@ -16,6 +19,17 @@ public class Player extends GameObject {
 
     private BufferedImage sprite;
 
+    /**
+     * Constructeur de la classe
+     * @param speed
+     * @param health
+     * @param damage
+     * @param widht
+     * @param height
+     * @param x
+     * @param y
+     * @throws IOException
+     */
     public Player(int speed, int health, int damage, int widht, int height, int x, int y) throws IOException {
         super(speed, health, damage, widht, height, x, y);
         sprite = ImageIO.read(new File("/home/LeSaucissonSec/Desktop/BUT_INFO/Coo/SpaceInvader/player.png"));
@@ -42,6 +56,7 @@ public class Player extends GameObject {
             m.update(d);
         }
 
+        //gestion des tirs
         cdr = (cdr+d);
         if(cdr >2){
             cdr%=2;

@@ -10,6 +10,9 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 
+/**
+ * Classe qui gère les ennemis du jeu, modifie la methode render pour afficher le bon sprite
+ */
 public class Enemy extends GameObject {
 
     BufferedImage sprite;

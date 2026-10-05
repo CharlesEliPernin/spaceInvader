@@ -5,6 +5,9 @@ import java.awt.event.KeyListener;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * Classe qui gère les interactions de l'utilisateur.
+ */
 public class InputHandler implements KeyListener
 {
     private Set<Integer> keyPressed = new HashSet<>();
