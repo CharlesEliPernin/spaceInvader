@@ -2,8 +2,22 @@ package Engine;
 
 import java.awt.*;
 
+/**
+ * Classe reprenant les missiles du jeu.
+ */
 public class Missile extends GameObject{
     protected boolean hit;
+
+    /**
+     * Constructeur de la classe
+     * @param speed
+     * @param health
+     * @param damage
+     * @param widht
+     * @param height
+     * @param x
+     * @param y
+     */
     public Missile(int speed, int health, int damage, int widht, int height, int x, int y) {
         super(speed, health, damage, widht, height, x, y);
         hit = false;

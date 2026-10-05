@@ -2,6 +2,9 @@ package Engine;
 
 import java.awt.*;
 
+/**
+ * Classe abstaite qui gere les objets du jeu.
+ */
 public abstract class GameObject {
     protected double x;
     protected  double y;
@@ -11,6 +14,16 @@ public abstract class GameObject {
     protected int health;
     protected int dmg;
 
+    /**
+     * constructeur de la classe
+     * @param speed
+     * @param health
+     * @param damage
+     * @param widht
+     * @param height
+     * @param x
+     * @param y
+     */
     public GameObject(int speed, int health, int damage, int widht, int height, int x, int y){
         this.speed = speed;
         this.health = health;
