@@ -1,7 +1,7 @@
 import Engine.GameLoop;
 import Engine.GameObject;
 import Engine.GameWindow;
-import Engine.Player;
+import Objects.Player;
 import Objects.Enemy;
 
 import java.io.IOException;

@@ -1,12 +1,15 @@
-package Engine;
+package Objects;
+
+import Engine.GameObject;
+import Engine.InputHandler;
 
 import java.awt.*;
 
 /**
  * Classe reprenant les missiles du jeu.
  */
-public class Missile extends GameObject{
-    protected boolean hit;
+public class Missile extends GameObject {
+    public boolean hit;
 
     /**
      * Constructeur de la classe

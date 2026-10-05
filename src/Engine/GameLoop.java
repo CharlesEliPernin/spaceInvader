@@ -1,5 +1,8 @@
 package Engine;
 
+import Objects.Missile;
+import Objects.Player;
+
 import java.awt.*;
 import java.awt.image.BufferStrategy;
 import java.util.ArrayList;

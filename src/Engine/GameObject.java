@@ -9,7 +9,7 @@ public abstract class GameObject {
     protected double x;
     protected  double y;
     protected Dimension dim;
-    protected Rectangle hitBox;
+    public Rectangle hitBox;
     protected int speed;
     protected int health;
     protected int dmg;

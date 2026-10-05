@@ -1,5 +1,8 @@
-package Engine;
+package Objects;
 
+
+import Engine.GameObject;
+import Engine.InputHandler;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
